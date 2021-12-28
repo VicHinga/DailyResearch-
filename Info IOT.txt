@@ -1,0 +1,73 @@
+					
+
+
+                   ___                                  ___           ___           ___           ___           ___     
+       ___        /  /\          ___                   /  /\         /  /\         /  /\         /  /\         /  /\    
+      /__/\      /  /::\        /__/\                 /  /:/        /  /::\       /  /::\       /  /:/        /  /::\   
+      \__\:\    /  /:/\:\       \  \:\               /  /:/        /  /:/\:\     /  /:/\:\     /  /:/        /__/:/\:\  
+      /  /::\  /  /:/  \:\       \__\:\             /  /::\ ___   /  /::\ \:\   /  /:/  \:\   /  /::\____   _\_ \:\ \:\ 
+   __/  /:/\/ /__/:/ \__\:\      /  /::\           /__/:/\:\  /\ /__/:/\:\_\:\ /__/:/ \  \:\ /__/:/\:::::\ /__/\ \:\ \:\
+  /__/\/:/~~  \  \:\ /  /:/     /  /:/\:\          \__\/  \:\/:/ \__\/  \:\/:/ \  \:\  \__\/ \__\/~|:|~~~~ \  \:\ \:\_\/
+  \  \::/      \  \:\  /:/     /  /:/__\/               \__\::/       \__\::/   \  \:\          |  |:|      \  \:\_\:\  
+   \  \:\       \  \:\/:/     /__/:/                    /  /:/        /  /:/     \  \:\         |  |:|       \  \:\/:/  
+    \__\/        \  \::/      \__\/                    /__/:/        /__/:/       \  \:\        |__|:|        \  \::/   
+                  \__\/                                \__\/         \__\/         \__\/         \__\|         \__\/    
+
+
+
+
+				** Marvin Ogore (marvinogoree@gmail.com) **
+
+-> <Application Layer>    { api.cloudmqtt.com/sso/cloudmqtt/console }
+
+	MQTT which uses a publish/subscribe model. (Message Queuing Telemetry Transport) and Constrained Application Protocol
+		-> Publish/Subscribe 
+			-Publisher(Component which gives out some information)
+
+				Broker <coordinates between a subscriber and publisher>
+
+			-Subscribe(Request or desire data)
+
+-> MQTT security with ABE, OAuth and TLS 
+
+-> Implementing security using the recent development of the AWS IOT core
+
+
+
+
+
+		* Background *
+
+-> MQTT was developed by IBM
+-> Default MQTT port is TCP/IP port:1883.
+-> MQTT operates over protocols that are not lossy and are bi directional such as the TCP/IP. (Look for possible UDP) 
+	??? -> The three qualities of service for message delivery:
+
+
+		* Application of MQTT *
+
+-> Implementes where sensor devices are used and the internet is slow and there is high packet loss eg.(rural areas) 
+-> In hospitals to communicate with pace-makers
+???-> In oil and gas companies.
+-> Space probes
+-> MQTT is also used in precision farming (soil moisture, humidity, and temperature switch)
+-> A username and password for MQTT verification poses security challenges
+	Authentication procedure is optional and delivered in plain text which makes eavesdropping possible.
+
+-> Research on Facebook messenger and MQTT
+
+
+-> The identity of subscribing devices is unknown to publishing devices when data has to be
+read and decrypted by an exact receiver. Traditional public key mechanisms make it difficult to
+provide data access policies with a richer set of attributes such as specific cyclic periods, beyond a
+specific set of recipients[13].  ()
+
+-> MQTT lacks message expiry which overloads the broker side
+
+
+
+		*Methodology*
+
+-> Propose a USSD system. to send data to farmers	 ??
+
+facebook messenger MQTT, DDOS on MQTT
