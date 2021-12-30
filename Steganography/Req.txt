@@ -1,0 +1,6 @@
+python steganography
+
+https://github.com/RobinDavid/LSB-Steganography
+https://www.youtube.com/watch?v=1yh-ZF3Xwz8
+
+https://www.youtube.com/watch?v=rcys0ro-2mQ
