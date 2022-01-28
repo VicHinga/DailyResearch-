@@ -1,0 +1,41 @@
+
+======================================================================
+
+GOAL: Build a simple RESTFUL API that implements CRUD operation
+
+======================================================================
+
+REST:- Representation State transfere
+CRUD:- Create Update and Delete
+ 
+Tools->
+  Node js
+  Express js < Create Different Routes for API >
+  Postman < Make different request for API >
+
+  uuid < https://www.npmjs.com/package/uuid >
+ 
+
+_______________________________________
+
+FOLDERS & FILES 
+
+root => index.js < set the port, set express, set JSON >
+
+root => routes => users.js < inherits the controlers to 'URL' >
+
+root => controlers => users.js < class to perform CRUD >
+
+_______________________________________
+
+_______________________________________
+
+TERMINAL COMMANDS
+
+npm init -y   < creates a package.json >
+
+npm install --save-dev nodemon  < To auto-start the server in development mode >
+
+
+_______________________________________
+
