@@ -1,0 +1,6 @@
+
+-> Password Generator application in tkinter GUI
+
+-> Random number is generated from ascii chr() between number 33,127
+
+-> 
