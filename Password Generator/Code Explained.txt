@@ -3,4 +3,4 @@
 
 -> Random number is generated from ascii chr() between number 33,127
 
--> 
+-> The UI has two buttons; one for generating the pwd the other to copy to clipboard.
