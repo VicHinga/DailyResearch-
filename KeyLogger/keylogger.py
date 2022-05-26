@@ -19,7 +19,7 @@ print('''          _              _    _        _            _             _    
 # set up the email
 email = input('Enter email: ')
 password = getpass.getpass(prompt='Password', stream=None)
-server = smtplib.SMTP_SSL('smtp.gmai.com', 465)
+server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.login(email, password)
 
 
