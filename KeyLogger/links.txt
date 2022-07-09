@@ -20,3 +20,14 @@ https://patorjk.com/software/taag/
 ===================================================================================================================================
 
 	https://www.youtube.com/watch?v=qapS-63yC3Y
+
+*This may not work gmail has updated their login policy, no less secure apps* 
+
+The keylogger that will send key strokes of your device directly to your email
+
+1. Run the file
+2. Enter email where key strokes should be sent to
+3. Enter Pwd of the email in step 2
+4. It will start logging the key strokes
+
+You will be sent an email of what you have typed 
