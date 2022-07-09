@@ -1,0 +1,22 @@
+
+
+[-] Scrape email from a specific domain
+
+
+-> deque = (Doubly Ended Queue) in Python is implemented using the module “collections“. Deque is preferred over a list in the cases where we need quicker append and pop operations from both the ends of the container
+
+append():- This function is used to insert the value in its argument to the right end of the deque.
+popleft():- This function is used to delete an argument from the left end of the deque.
+
+-> The app will be scraping first 99 urls then break
+
+-> (urllib.parse.urlsplit) This module defines a standard interface to break Uniform Resource Locator (URL) strings up in components (addressing scheme, network location, path, query, fragment identifier).
+
+-> format() method returns the formatted string.
+
+-> The rfind() method returns the highest index of the substring (if found). If not found, it returns -1.
+
+-> regex to find all the emails from var "response" the expression finds anything b4 and after the @ sign <re.I ignore the case(Upper or Lower)>
+
+
+
